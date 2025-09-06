@@ -10,9 +10,8 @@ struct A {
 
 int main() {
     printf("hi\n"); // NOLINT
-    engine::Context ctx;
 
-    auto test = engine::ContextObject<A>(&ctx, 3);
+    auto test = engine::ContextObject<A>(3);
 
     printf("%d\n", test->a); // NOLINT
 }

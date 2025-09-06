@@ -1,1 +1,4 @@
-target_sources(engine PRIVATE context.cpp)
+target_sources(engine PRIVATE
+    context.cpp
+    arena.cpp
+)
