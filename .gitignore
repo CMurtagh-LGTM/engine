@@ -1,3 +1,4 @@
 build/*
 embuild/*
 compile_commands.json
+.cache/*

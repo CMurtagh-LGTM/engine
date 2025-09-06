@@ -15,7 +15,7 @@ void* operator new (size_t count, engine::Context& context) noexcept;
 namespace engine {
 
 constexpr size_t MEGABYTE = static_cast<const size_t>(1024 * 1024);
-constexpr size_t DEFAULT_ARENA_SIZE = 256 * MEGABYTE;
+constexpr size_t DEFAULT_ARENA_SIZE = 1 * MEGABYTE;
 
 class ContextBroker;
 
